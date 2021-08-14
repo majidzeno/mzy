@@ -20,5 +20,19 @@
   display: flex;
 }
 .links {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   display: flex;
+  
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-right: 15px;
+
+}
+.displayName{
+    align-self: flex-start;
 }

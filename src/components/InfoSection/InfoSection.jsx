@@ -16,12 +16,22 @@ const InfoSection = () => {
             <div>svg button</div>
             </div>
              <div className="links">
-                 <div className="">Link</div>
-                 <div className="">Link</div>
-                 <div className="">Link</div>
+                 
+                 <div className="">
+                 <a href="" target="self"><b>384</b> posts</a>
+                 </div>
+
+                 <div className="">
+                 <a href="" target="self"><b>582</b> followers</a>
+                 </div>
+
+                 <div className="">
+                 <a href="" target="self"><b>929</b> folowing</a>
+                 </div>
+
              </div>
              <div className="displayName">
-                DisplayName
+               <h3>Yara Refaee</h3>
              </div>
         </div>
     </div>)
