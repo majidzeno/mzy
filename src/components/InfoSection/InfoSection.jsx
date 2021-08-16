@@ -3,9 +3,6 @@ import AvatarImg from './avatar.png';
 import SettingIcon from './setting.js';
 import './InfoSection.css';
 const InfoSection = () => {
-    // Avatar
-    // Info
-
     return (<div className="infoSection">
         <div className="avatar">
             <img src={AvatarImg} alt="avatar" />
