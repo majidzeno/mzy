@@ -63,6 +63,9 @@
   margin-inline-end: 1em;
 }
 
-.settingButton:link, .settingButton:active, .settingButton:visited, .settingButton:hover {
+.settingButton:link, 
+.settingButton:active, 
+.settingButton:visited, 
+.settingButton:hover {
   color: #000;
 }
