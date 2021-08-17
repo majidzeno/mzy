@@ -16,13 +16,13 @@ const Header = () => {
             <input type="text" className="SearchBar" placeholder="search..."></input>
         </div>
         <div className="icons">
-        <a href="" target="self">
-            <img src={Home} className="icon" alt="Home" width="23px" /></a>
-        
-        <a href="" target="self">  <img src={Share} className="icon" alt="Share" width="23px" /></a>
-        <a href="" target="self"> <img src={Direction} className="icon" alt="Direction" width="23px" /></a>
-        <a href="" target="self">  <img src={Love} className="icon" alt="Love" width="23px" /></a>
-        <a href="" target="self">  <img src={Avatar} className="icon avatarIcon" alt="Avatar" width="25px" /></a>
+            <a href="" target="self">
+                <img src={Home} className="icon" alt="Home" width="23px" /></a>
+
+            <a href="" target="self">  <img src={Share} className="icon" alt="Share" width="23px" /></a>
+            <a href="" target="self"> <img src={Direction} className="icon" alt="Direction" width="23px" /></a>
+            <a href="" target="self">  <img src={Love} className="icon" alt="Love" width="23px" /></a>
+            <a href="" target="self">  <img src={Avatar} className="icon avatarIcon" alt="Avatar" width="25px" /></a>
 
         </div>
 
