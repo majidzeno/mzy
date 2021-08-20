@@ -2,11 +2,11 @@
     display: flex;
 }
 
-.icons{
+.Icons{
     margin-top: 10px;
 }
 
-.icon {
+.Icon {
     flex: 1;
     align-items: right;
     display: inline-block;
@@ -28,15 +28,14 @@
     text-align: center;
  }
 
- .instaLogo {
+ .InstaLogo {
      margin-left: 20px;
     align-self: flex-start;
  }
 
- .avatarIcon {
+ .AvatarIcon {
      border: double;
      border-radius: 15px;
      margin-right: 10px;
  }
 
- 
