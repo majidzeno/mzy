@@ -9,19 +9,19 @@ const Navbar = () => {
     return <div className='Nav'>
         <ul className='NavList'>
             <li className='NavListItem ActiveNavListItem'>
-                <Grid  bindedClass="Icon" />
+                <Grid  bindedClass="IconNavBar" />
                 posts
             </li>
             <li className='NavListItem'>
-                <Tv  bindedClass="Icon" />
+                <Tv  bindedClass="IconNavBar" />
                 igtv
             </li>
             <li className='NavListItem'>
-                <Saved  bindedClass="Icon" />
+                <Saved  bindedClass="IconNavBar" />
                 saved
             </li>
             <li className='NavListItem'>
-                <Tagged  bindedClass="Icon" />
+                <Tagged  bindedClass="IconNavBar" />
                 tagged
             </li>
         </ul>
