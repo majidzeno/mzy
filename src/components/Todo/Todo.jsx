@@ -5,7 +5,7 @@ function Todo() {
   const [Todos, setTodos] = useState([]);
   const [Todo, setTodo] = useState("");
 
-  function HandleSubmit(e) {
+   const HandleSubmit = (e) => {
     e.preventDefault();
     if (Todo !== "") {
       const newTodo = {
@@ -18,18 +18,18 @@ function Todo() {
     }
   }
 
-  function HandleDelete(index) {
+   const HandleDelete =  (index) => {
     const newArr = [...Todos];
     newArr.splice(index, 1);
-    setTodos(newArr);
+    setTodos([...newArr]);
   }
 
-  function HandleCheck(index) {
+   const HandleCheck =  (index) => {
     const newArr = [...Todos];
     let checkedObj = newArr[index];
     checkedObj = { ...checkedObj, completed: !checkedObj.completed };
     newArr.splice(index, 1, checkedObj);
-    setTodos(newArr);
+    setTodos([...newArr]);
   }
 
   return (
