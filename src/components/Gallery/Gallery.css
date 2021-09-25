@@ -1,0 +1,11 @@
+.Gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Gallery-Image{
+    width: 30%;
+    margin-block-end: 2rem;
+    /* min-width: 30%; */
+}
