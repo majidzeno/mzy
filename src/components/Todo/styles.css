@@ -1,0 +1,9 @@
+.instruction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.completed {
+    color: green;
+    text-decoration: line-through;
+}
