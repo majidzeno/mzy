@@ -23,5 +23,8 @@
     "activityBar.background": "#51055D",
     "titleBar.activeBackground": "#720782",
     "titleBar.activeForeground": "#FEFBFF"
-  }
+  },
+  "conventionalCommits.scopes": [
+    "Core"
+  ]
 }
