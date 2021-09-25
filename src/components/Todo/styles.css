@@ -1,0 +1,51 @@
+.Todo {
+}
+
+.instruction {
+  /* text-align: left; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.completed {
+  color: green;
+  text-decoration: line-through;
+}
+
+.Todo-Input{
+  width: 30%;
+  padding: 0.7rem 1.5rem;
+  margin: 0.5rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Todo-Button {
+  color: white;
+  padding: 0.7rem 1.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.Todo-Add-Button{
+  background-color: #4caf50;
+}
+
+.Todo-Add-Button:hover {
+  background-color: #45a049;
+}
+
+.Todo-Delete-Button {
+  background-color: #d82d2d;
+}
+
+.Todo-Delete-Button:hover {
+  background-color: #bb2424;
+}
