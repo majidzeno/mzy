@@ -1,6 +1,7 @@
 import React from "react";
 import './Gallery.css'
-const Gallery = () => {
+const Gallery = ({match}) => {
+  console.log(match)
   return (
     <>
       <div className="Gallery">

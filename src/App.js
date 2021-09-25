@@ -6,7 +6,7 @@ import Todo from "./components/Todo/Todo.jsx";
 
 import "./App.css";
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect  } from "react-router-dom";
 
 function App() {
   return (
@@ -16,9 +16,11 @@ function App() {
           <Header />
           <InfoSection />
           <Navbar />
-          <Route path="/" exact component={Gallery} />
-
-          <Route path="/todo" exact component={Todo} />
+          <Switch>
+            <Route path="/" exact component={Gallery} />
+            <Route path="/todo" exact component={Todo} />
+            <Redirect path="/" />
+          </Switch>
         </div>
       </div>
     </Router>
