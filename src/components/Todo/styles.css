@@ -2,17 +2,21 @@
 }
 
 .instruction {
-  /* text-align: left; */
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
+  width: 40%;
+  margin: 1.5rem auto;
+  border: 1px solid #d4d4d4;
+  border-radius: 0.7rem;
+  padding: 0 10px;
 }
 .completed {
   color: green;
   text-decoration: line-through;
 }
 
-.Todo-Input{
+.Todo-Input {
   width: 30%;
   padding: 0.7rem 1.5rem;
   margin: 0.5rem;
@@ -34,7 +38,7 @@
   letter-spacing: 0.1rem;
 }
 
-.Todo-Add-Button{
+.Todo-Add-Button {
   background-color: #4caf50;
 }
 

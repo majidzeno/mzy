@@ -16,16 +16,7 @@ const Navbar = () => {
                     Gallery
                 </NavLink>
             </li>
-            {/* <li className='NavListItem'>
-                <NavLink>
-                <Tv  bindedClass="IconNavBar" />
-                igtv
-                </NavLink>
-            </li>
-            <li className='NavListItem'>
-                <Saved  bindedClass="IconNavBar" />
-                saved
-            </li> */}
+
             <li className='NavListItem'>
                 <NavLink to="/todo">
                     <Tagged  bindedClass="IconNavBar" />
