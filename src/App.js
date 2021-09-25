@@ -14,7 +14,7 @@ function App() {
       <InfoSection />
       <Navbar />
       <Gallery />
-      {/* <Todo /> */}
+      <Todo />
     </div>
   );
 }
