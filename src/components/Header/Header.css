@@ -6,6 +6,10 @@
 .Icons{
     margin-top: 10px;
 }
+.Icons a{
+    text-decoration: none;
+}
+
 
 .Icon {
     flex: 1;
