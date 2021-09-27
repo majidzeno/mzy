@@ -12,14 +12,14 @@ const Navbar = () => {
     return <div className='Nav'>
         <ul className='NavList'>
             <li className='NavListItem'>
-                <NavLink to="/" exact>
+                <NavLink to="/home/gallery" >
                     <Grid  bindedClass="IconNavBar" />
                     Gallery
                 </NavLink>
             </li>
 
             <li className='NavListItem'>
-                <NavLink to="/todo">
+                <NavLink to="/home/todo">
                     <Tagged  bindedClass="IconNavBar" />
                     Todo
                 </NavLink>

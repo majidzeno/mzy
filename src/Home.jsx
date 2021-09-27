@@ -6,21 +6,22 @@ import Todo from "./components/Todo/Todo.jsx";
 
 import "./App.css";
 
-import { Route, Switch, Redirect  } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 
-function Home() {
+function Home({ match }) {
+  console.log(match);
   return (
-      <div className="app">
-        <div className="container">
-          <Header />
-          <InfoSection />
-          <Navbar />
-          <Switch>
-            <Route path="/" exact component={Gallery} />
-            <Route path="/todo" exact component={Todo} />
-          </Switch>
-        </div>
+    <div className="app">
+      <div className="container">
+        <Header />
+        <InfoSection />
+        <Navbar />
+        <Switch>
+          <Route path={match.url + "/gallery"} component={Gallery} />
+          <Route path={match.url + "/todo"} component={Todo} />
+        </Switch>
       </div>
+    </div>
   );
 }
 

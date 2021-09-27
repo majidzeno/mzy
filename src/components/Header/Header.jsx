@@ -22,8 +22,8 @@ const Header = () => {
         ></input>
       </div>
       <div className="Icons">
-          
-        <NavLink to="/">
+
+        <NavLink to="/home">
           <img src={Home} className="Icon" alt="Home" width="23px" />
         </NavLink>
 

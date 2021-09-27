@@ -15,8 +15,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/todo" exact component={Home} />
+        <Route path="/home" component={Home} />
+        {/* <Route path="/todo" exact component={Home} /> */}
 
         <Route path="/about" exact component={About} />
         <Redirect path="/" />
