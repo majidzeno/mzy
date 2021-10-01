@@ -2,12 +2,12 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 
 import Grid from './assets/Grid';
-import Saved from './assets/Saved';
+// import Saved from './assets/Saved';
 import Tagged from './assets/Tagged';
-import Tv from './assets/Tv';
+// import Tv from './assets/Tv';
 
 import './Navbar.css'
-const Navbar = () => {
+const Navbar = ({match}) => {
     
     return <div className='Nav'>
         <ul className='NavList'>

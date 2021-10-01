@@ -19,7 +19,7 @@ function App() {
         {/* <Route path="/todo" exact component={Home} /> */}
 
         <Route path="/about" exact component={About} />
-        <Redirect path="/" />
+        <Redirect to="/home" />
       </Switch>
     </Router>
   );

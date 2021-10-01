@@ -6,20 +6,32 @@ import Todo from "./components/Todo/Todo.jsx";
 
 import "./App.css";
 
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route } from "react-router-dom";
+
 
 function Home({ match }) {
-  console.log(match);
+  const components = {
+    'gallery': Gallery,
+    'todo': Todo
+  };
+  function getComponent({name, match}) {
+    const DynamicComponent = components[name]; 
+    return <DynamicComponent match={match} />;
+  }
   return (
     <div className="app">
       <div className="container">
         <Header />
         <InfoSection />
         <Navbar />
-        <Switch>
-          <Route path={match.url + "/gallery"} component={Gallery} />
-          <Route path={match.url + "/todo"} component={Todo} />
-        </Switch>
+          <Route 
+            path={`${match.path}/:name`} 
+            render = {({match}) =>( 
+              <div> 
+                {getComponent({name:match.params.name, match})} 
+              </div>
+            )} 
+          />
       </div>
     </div>
   );
